@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
 const WpHomePage = () => {
   const [openChatBox, setOpenChatBox] = useState(false);
