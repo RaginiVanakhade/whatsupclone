@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:3001";
+const API_URL = "https://curdoperation-backend.onrender.com";
 
 function Home() {
   const [users, setUsers] = useState([]);
