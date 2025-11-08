@@ -3,8 +3,8 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const Log = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("RAGINI@GMAIL.COM");
+  const [password, setPassword] = useState("2300");
   const navigate = useNavigate();
 
   function handleSubmit(event) {
@@ -67,6 +67,7 @@ const Log = () => {
             <input
               type="email"
               placeholder="example@gmail.com"
+              value={email} // ✅ Added this line
               onChange={(e) => setEmail(e.target.value)}
               required
               style={{
@@ -93,6 +94,7 @@ const Log = () => {
             <input
               type="password"
               placeholder="••••••••"
+              value={password} // ✅ Added this line
               onChange={(e) => setPassword(e.target.value)}
               required
               style={{
