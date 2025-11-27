@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import whatsupLogo from '../assets/whatsupLogo.jpg';
 import { Link } from 'react-router-dom';
 import { FaDownload } from 'react-icons/fa';
@@ -36,7 +36,7 @@ const Login = () => {
                 />
               </div>
               <h2 className="text-2xl font-semibold mb-6">Login to WhatsApp Web</h2>
-              <Link to="wphomepage">
+              <Link to="/Home">
                 <button className="bg-green-400 w-32 hover:bg-green-600 px-4 py-2 rounded-xl text-white">
                   Login
                 </button>
