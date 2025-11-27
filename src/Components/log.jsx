@@ -7,6 +7,7 @@ const Log = () => {
   const [password, setPassword] = useState("2300");
   const navigate = useNavigate();
 
+  
   function handleSubmit(event) {
     event.preventDefault();
     axios
