@@ -10,7 +10,7 @@ const Login = () => {
 
   return (
     <>
-      <div className="bg-amber-50 min-h-screen flex flex-col justify-between">
+      <div className="bg-[#1A1A1A]  min-h-screen flex flex-col justify-between">
         <div className="flex justify-between items-center p-4">
           <div className="flex items-center gap-2 text-green-600 font-bold">
             <img src={whatsupLogo} alt="WhatsApp Logo" className="w-10 h-10" />
@@ -26,7 +26,7 @@ const Login = () => {
 
 
         <div className="flex flex-1 justify-center items-center px-4">
-          <div className="bg-white shadow-2xl border border-black rounded-3xl w-full max-w-xl p-8">
+          <div className="bg-[#1A1A1A]  shadow-2xl   rounded-3xl w-full max-w-xl p-8">
             <div className="text-center">
               <div className="flex justify-center mb-4">
                 <img
@@ -35,7 +35,7 @@ const Login = () => {
                   className="w-24 h-24 rounded-full"
                 />
               </div>
-              <h2 className="text-2xl font-semibold mb-6">Login to WhatsApp Web</h2>
+              <h2 className="text-2xl font-semibold mb-6 text-white ">Login to WhatsApp Web</h2>
               <Link to="/Home">
                 <button className="bg-green-400 w-32 hover:bg-green-600 px-4 py-2 rounded-xl text-white">
                   Login

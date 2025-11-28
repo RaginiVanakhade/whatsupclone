@@ -188,22 +188,22 @@
 
 // import React from 'react'
 
-import '../style/style.css'
+
+// import '../style/style.css'
+import Header from '../components/Header'
+import SideBar from '../components/SideBar'
+import ChatWindow from '../components/ChatWindow'
 const Home = () => {
   return (
     <>
-      <div id='container'>
-        {/* Header  */}
-        <div id='Header' className='item'>Header</div>
-
-        {/* sidebar */}
-        <div id='Sidebar' className='item'>Sidebar</div>
-
-        {/* content */}
-        <div id='Content' className='item'>Content</div>
-
-        {/* footer  */}
-        <div id='footer' className='item'>Footer</div>
+      <div id='container' className='bg-[#121212] h-full  text-white w-full '>
+        <div id='Header' className='item '><Header /></div>
+        {/* section  */}
+        <div className=' m-6 flex rounded-3xl bg-[#1F1F1F]'>
+          <div className='bg-[#1A1A1A] rounded-l-3xl'><SideBar /></div>
+        <div className=''><ChatWindow /></div>
+        {/* <div className=''> Second sidbar</div> */}
+        </div>
       </div>
     </>
   )
