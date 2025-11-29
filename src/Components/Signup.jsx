@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import PropTypes from "prop-types";
 
 const Signup = ({ onBack }) => {
   const [name, setName] = useState("");
@@ -67,6 +68,10 @@ const Signup = ({ onBack }) => {
       </button>
     </div>
   );
+};
+
+Signup.propTypes = {
+  onBack: PropTypes.func.isRequired,
 };
 
 export default Signup;
