@@ -4,6 +4,7 @@ import WpHomePage from "./pages/WpHomePage"
 import WpProfile from "./pages/WpProfile"
 import WpChat from "./pages/WpChat"
 import WpPageNotFount from "./pages/WpPageNotFount"
+import Signup from "./components/Signup"
 // import { useState } from "react"
 
 import Home from "./Components/Home"
@@ -18,6 +19,7 @@ function App() {
      <Route path="/wpprofile" element={<WpProfile/>}/>
       <Route path="/wpchat/:uniqueId" element={<WpChat/>}/>
       <Route path="/wppagenotfound" element={<WpPageNotFount/>}/>
+      <Route path="/signup" element={<Signup />} />
     </Routes> 
     
        </>
