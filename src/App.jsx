@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import Login from "./Components/Login"
+import Login from "./components/Login"
 import WpHomePage from "./pages/WpHomePage"
 import WpProfile from "./pages/WpProfile"
 import WpChat from "./pages/WpChat"

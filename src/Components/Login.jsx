@@ -10,7 +10,7 @@ const Login = () => {
 
   return (
     <>
-      <div className="bg-[#1A1A1A]  min-h-screen flex flex-col justify-between">
+      <div className="bg-[#1A1A1A]  min-h-screen flex flex-col justify-between text-white">
         <div className="flex justify-between items-center p-4">
           <div className="flex items-center gap-2 text-green-600 font-bold">
             <img src={whatsupLogo} alt="WhatsApp Logo" className="w-10 h-10" />
@@ -36,6 +36,28 @@ const Login = () => {
                 />
               </div>
               <h2 className="text-2xl font-semibold mb-6 text-white ">Login to WhatsApp Web</h2>
+
+
+              {/* form  */}
+              <div>
+                <div>
+                  <label htmlFor="text" className='relative right-40 bottom-2'>Enter your contact no</label>
+                  <input
+                    type="text"
+                    className="w-[96%] ml-2 mr-2 mb-2 pl-12 pr-4 py-2 border rounded-3xl outline-none"
+                    placeholder="Enter your contact no"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="text" className='relative right-40  '>Enter your password</label>
+                  <input
+                    type="password"
+                    className="w-[96%] ml-2 mr-2 mt-2 pl-12 pr-4 py-2 border rounded-3xl outline-none"
+                    placeholder="Enter your password"
+                  />
+                </div>
+                <button className='relative right-40 m-2'>Forgot Password</button>
+              </div>
               <Link to="/Home">
                 <button className="bg-green-400 w-32 hover:bg-green-600 px-4 py-2 rounded-xl text-white">
                   Login

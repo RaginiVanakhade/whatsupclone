@@ -180,15 +180,8 @@
 //   deleteBtn: { background: "#dc3545", color: "white", border: "none", padding: "5px 10px", cursor: "pointer" },
 //   table: { width: "100%", borderCollapse: "collapse", marginTop: "20px" },
 // };
-
 // export default Home;
-
-
-
-
 // import React from 'react'
-
-
 // import '../style/style.css'
 import Header from '../components/Header'
 import SideBar from '../components/SideBar'
