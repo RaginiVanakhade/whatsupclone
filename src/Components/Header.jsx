@@ -6,7 +6,7 @@ import { IoIosNotifications } from "react-icons/io";
 import { TbHistoryToggle } from "react-icons/tb";
 import ToggleSlide from '../custom/ToggleSlide';
 import { RiLogoutCircleRLine } from "react-icons/ri";
-import { Navigate, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
